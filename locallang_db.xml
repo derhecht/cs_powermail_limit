@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to
+			extension 'cs_powermail_limit'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.tx_cspowermaillimit_limit">Set the maximum number of E-Mails:</label>
+			<label index="tt_content.tx_cspowermaillimit_record">Choose a Record</label>
+			<label index="tt_content.tx_cspowermaillimit_starttime">Set a Start Date and Time</label>
+			<label index="tt_content.tx_cspowermaillimit_enddate">Set a End Date and Time</label>
+			<label index="tt_content.tx_cspowermaillimit_record_start">Show this record before Startdate</label>
+			<label index="tt_content.tx_cspowermaillimit_record_end">Show this record after Enddate</label>
+			<label index="tx_cspowermaillimit_divider">Limitation</label>
+			<label index="tx_cspowermaillimit_maillimit">E-Mail Limit</label>
+			<label index="tx_cspowermaillimit_records">Set an alternative Database-Entry as a Message…</label>
+			<label index="tx_cspowermaillimit_timelimits">Timelimits</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tt_content.tx_cspowermaillimit_limit">Legen Sie die maximale Anzahl von E-Mails fest:</label>
+			<label index="tt_content.tx_cspowermaillimit_record">Datenbankeintrag wählen</label>
+			<label index="tt_content.tx_cspowermaillimit_starttime">Startdatum und -Uhrzeit festlegen</label>
+			<label index="tt_content.tx_cspowermaillimit_enddate">Enddatum und -Uhrzeit festlegen</label>
+			<label index="tt_content.tx_cspowermaillimit_record_start">Zeige diesen DB Eintrag vor dem Startdatum</label>
+			<label index="tt_content.tx_cspowermaillimit_record_end">Zeige diesen DB Eintrag nach dem Enddatum</label>
+			<label index="tx_cspowermaillimit_divider">Limitierung</label>
+			<label index="tx_cspowermaillimit_maillimit">E-Mail Limit</label>
+			<label index="tx_cspowermaillimit_records">Legen Sie einen Datenbankeintrag als Mitteilung
+				fest…</label>
+			<label index="tx_cspowermaillimit_timelimits">Zeit Limits</label>
+		</languageKey>
+	</data>
+</T3locallang>
