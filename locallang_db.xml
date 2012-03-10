@@ -2,34 +2,54 @@
 <T3locallang>
 	<meta type="array">
 		<type>database</type>
-		<description>Language labels for database tables/fields belonging to
-			extension 'cs_powermail_limit'</description>
+		<description>Language labels for database tables/fields belonging to extension 'cs_powermail_limit'</description>
 	</meta>
 	<data type="array">
 		<languageKey index="default" type="array">
-			<label index="tt_content.tx_cspowermaillimit_limit">Set the maximum number of E-Mails:</label>
-			<label index="tt_content.tx_cspowermaillimit_record">Choose a Record</label>
-			<label index="tt_content.tx_cspowermaillimit_starttime">Set a Start Date and Time</label>
-			<label index="tt_content.tx_cspowermaillimit_enddate">Set a End Date and Time</label>
-			<label index="tt_content.tx_cspowermaillimit_record_start">Show this record before Startdate</label>
-			<label index="tt_content.tx_cspowermaillimit_record_end">Show this record after Enddate</label>
-			<label index="tx_cspowermaillimit_divider">Limitation</label>
-			<label index="tx_cspowermaillimit_maillimit">E-Mail Limit</label>
-			<label index="tx_cspowermaillimit_records">Set an alternative Database-Entry as a Message…</label>
-			<label index="tx_cspowermaillimit_timelimits">Timelimits</label>
+			<label index="tx_cspowermaillimit.powermail.divider.title">Limitation</label>
+			<label index="tx_cspowermaillimit.powermail.tab.maillimit.title">Mail-Limit</label>
+			<label index="tx_cspowermaillimit.powermail.tab.startlimit.title">Start-Time</label>
+			<label index="tx_cspowermaillimit.powermail.tab.endlimit.title">End-Time</label>
+			<label index="tx_cspowermaillimit.powermail.field.maillimit">Mail Limit</label>
+			<label index="tx_cspowermaillimit.powermail.field.Mail-LimitMessage">Alternativly you can write a Message here...</label>
+			<label index="tx_cspowermaillimit.powermail.field.Mail-LimitDBrecord">Set DB-Record as Message</label>
+			<label index="tx_cspowermaillimit.powermail.field.startdate">Start-Date</label>
+			<label index="tx_cspowermaillimit.powermail.field.starttime">Start-Time</label>
+			<label index="tx_cspowermaillimit.powermail.field.startDBrecord">Set DB-Record as Message</label>
+			<label index="tx_cspowermaillimit.powermail.field.startMessage">Alternativly you can write a Message here...</label>
+			<label index="tx_cspowermaillimit.powermail.field.enddate">End-Date</label>
+			<label index="tx_cspowermaillimit.powermail.field.endtime">End-Time</label>
+			<label index="tx_cspowermaillimit.powermail.field.endDBrecord">Set DB-Record as Message</label>
+			<label index="tx_cspowermaillimit.powermail.field.endMessage">Alternativly you can write a Message here...</label>
+			<label index="tx_cspowermaillimit.powermail.field.limitinformation">Limit Information</label>
+			<label index="tx_cspowermaillimit.powermail.field.limitinformation.title">Show...</label>
+			<label index="tx_cspowermaillimit.powermail.field.limitinformation.checkbox.showStarttime">Show Start-Time</label>
+			<label index="tx_cspowermaillimit.powermail.field.limitinformation.checkbox.showEndtime">Show End-Time</label>
+			<label index="tx_cspowermaillimit.powermail.field.limitinformation.checkbox.showMaximumlimit">Show Mail-Limit</label>
+			<label index="tx_cspowermaillimit.powermail.field.limitinformation.checkbox.showFreeplaces">Show Free Places</label>
 		</languageKey>
 		<languageKey index="de" type="array">
-			<label index="tt_content.tx_cspowermaillimit_limit">Legen Sie die maximale Anzahl von E-Mails fest:</label>
-			<label index="tt_content.tx_cspowermaillimit_record">Datenbankeintrag wählen</label>
-			<label index="tt_content.tx_cspowermaillimit_starttime">Startdatum und -Uhrzeit festlegen</label>
-			<label index="tt_content.tx_cspowermaillimit_enddate">Enddatum und -Uhrzeit festlegen</label>
-			<label index="tt_content.tx_cspowermaillimit_record_start">Zeige diesen DB Eintrag vor dem Startdatum</label>
-			<label index="tt_content.tx_cspowermaillimit_record_end">Zeige diesen DB Eintrag nach dem Enddatum</label>
-			<label index="tx_cspowermaillimit_divider">Limitierung</label>
-			<label index="tx_cspowermaillimit_maillimit">E-Mail Limit</label>
-			<label index="tx_cspowermaillimit_records">Legen Sie einen Datenbankeintrag als Mitteilung
-				fest…</label>
-			<label index="tx_cspowermaillimit_timelimits">Zeit Limits</label>
+			<label index="tx_cspowermaillimit.powermail.divider.title">Limitierung</label>
+			<label index="tx_cspowermaillimit.powermail.tab.maillimit.title">Mail-Limit</label>
+			<label index="tx_cspowermaillimit.powermail.tab.startlimit.title">Start-Zeit</label>
+			<label index="tx_cspowermaillimit.powermail.tab.endlimit.title">End-Zeit</label>
+			<label index="tx_cspowermaillimit.powermail.field.maillimit">E-Mail Limit</label>
+			<label index="tx_cspowermaillimit.powermail.field.Mail-LimitMessage">Alternativ eine Nachricht schreiben...</label>
+			<label index="tx_cspowermaillimit.powermail.field.Mail-LimitDBrecord">Einen Datenbankeintrag als Nachricht setzen</label>
+			<label index="tx_cspowermaillimit.powermail.field.startdate">Start-Datum</label>
+			<label index="tx_cspowermaillimit.powermail.field.starttime">Start-Zeit</label>
+			<label index="tx_cspowermaillimit.powermail.field.startDBrecord">Einen Datenbankeintrag als Nachricht setzen</label>
+			<label index="tx_cspowermaillimit.powermail.field.startMessage">Alternativ eine Nachricht schreiben...</label>
+			<label index="tx_cspowermaillimit.powermail.field.enddate">End-Datum</label>
+			<label index="tx_cspowermaillimit.powermail.field.endtime">End-Zeit</label>
+			<label index="tx_cspowermaillimit.powermail.field.endDBrecord">Einen Datenbankeintrag als Nachricht setzen</label>
+			<label index="tx_cspowermaillimit.powermail.field.endMessage">Alternativ eine Nachricht schreiben...</label>
+			<label index="tx_cspowermaillimit.powermail.field.limitinformation">Limit Information</label>
+			<label index="tx_cspowermaillimit.powermail.field.limitinformation.title">Zeige...</label>
+			<label index="tx_cspowermaillimit.powermail.field.limitinformation.checkbox.showStarttime">Start-Zeit</label>
+			<label index="tx_cspowermaillimit.powermail.field.limitinformation.checkbox.showEndtime">End-Zeit</label>
+			<label index="tx_cspowermaillimit.powermail.field.limitinformation.checkbox.showMaximumlimit">Mail-Limit</label>
+			<label index="tx_cspowermaillimit.powermail.field.limitinformation.checkbox.showFreeplaces">Freie Plätze</label>
 		</languageKey>
 	</data>
 </T3locallang>

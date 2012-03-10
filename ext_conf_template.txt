@@ -1,2 +1,11 @@
 # cat=basic/enable/010; type=text; label= Set a standard text for ALL Messages if no Database-Record was chosen in the a Powermail Form.
 standardText = This Form is currently closed...
+
+# cat=basic/enable/010; type=options[+12,+11,+10,+9,+8,+7,+6,+5,+4,+3,+2,+1,0,-1,-2,-3,-4,-5,-6,-7,-8,-9,-10,-11,-12]; label= Timezone Offset (in hours). 0 = UTC
+timezoneOffset = +1
+
+# cat=basic/enable/010; type=text; label= Set Date Format...
+dateFormat = d.m.Y
+
+# cat=basic/enable/010; type=text; label= Set Time Format...
+timeFormat = G:i

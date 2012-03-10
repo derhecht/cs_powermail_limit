@@ -1,11 +1,16 @@
-2013-03-06 Jonas Felix <jf@cabag.ch>
-	* version 10.0.2 - modified
-	* added show empty places field
+2012-03-10 Christian Strunk  <Christian.M.Strunk@googlemail.com>
+
+	* New Main Version - PLEASE UNINSTALL PREVIOUS VERSIONS BEFORE INSTALL THIS ONE
+	* added extrafield to show limit informations (THX to Jonas Felix <jf@cabag.ch>)
+	* fixed limit-message after last sent form ( Thx to Sebastian Thadewald <bt@cabag.ch>)
+	* added Flexform (now only one Database field is required to store all information)
+	* added RTE Support
+	* Date and Time fields were separated
+	
+2012-01-29 Christian Strunk  <Christian.M.Strunk@googlemail.com>
+
+	* Added missing Manual
 
 2012-01-28 Christian Strunk  <Christian.M.Strunk@googlemail.com>
 
 	* initial release
-
-2012-01-29 Christian Strunk  <Christian.M.Strunk@googlemail.com>
-
-	* Added missing Manual
