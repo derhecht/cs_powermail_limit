@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-05-15T18:09:31Z" product-name="cs_powermail_limit2">
+		<header/>
+		<body>
+			<trans-unit id="tx_cspowermaillimit.PowermailTabMaillimitTitle">
+				<source>Limitations</source>
+   			</trans-unit>
+			<trans-unit id="tx_cspowermaillimit.Maillimit">
+				<source>Mail-Limit</source>
+   			</trans-unit>
+   			<trans-unit id="tx_cspowermaillimit.deleteTempMessages">
+				<source>Set Timelimit for Timeslots in Minutes (0 or empty field = Off)</source>
+   			</trans-unit>
+			<trans-unit id="tx_cspowermaillimit.DBRecord">
+				<source>Select a Database-Record OR write your own Message (below this field)</source>
+   			</trans-unit>
+			<trans-unit id="tx_cspowermaillimit.LimitMessage">
+				<source>Message when Mail-Limit is reached</source>
+   			</trans-unit>
+			<trans-unit id="tx_cspowermaillimit.Startdate">
+				<source>Start-Date</source>
+   			</trans-unit>
+			<trans-unit id="tx_cspowermaillimit.Starttime">
+				<source>Start-Time</source>
+   			</trans-unit>
+			<trans-unit id="tx_cspowermaillimit.StartMessage">
+				<source>Message before Start-Time is reached</source>
+   			</trans-unit>
+			<trans-unit id="tx_cspowermaillimit.enddate">
+				<source>End-Date</source>
+   			</trans-unit>>
+			<trans-unit id="tx_cspowermaillimit.endtime">
+				<source>End-Time</source>
+   			</trans-unit>
+			<trans-unit id="tx_cspowermaillimit.EndMessage">
+				<source>Message when Endtime is reached</source>
+   			</trans-unit>
+		</body>
+	</file>
+</xliff>
