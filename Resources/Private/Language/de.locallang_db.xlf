@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2013-05-15T18:09:31Z" product-name="cs_powermail_limit">
+		<header/>
+		<body>
+			<trans-unit id="tx_cspowermaillimit.PowermailTabMaillimitTitle">
+				<source>Limitations</source>
+				<target>Limitierungen</target>
+   			</trans-unit>
+			<trans-unit id="tx_cspowermaillimit.Maillimit">
+				<source>Mail-Limit</source>
+				<target>Mail-Limit</target>
+   			</trans-unit>
+   			<trans-unit id="tx_cspowermaillimit.deleteTempMessages">
+				<source>Set Timelimit for Timeslots in Minutes (0 or empty field = Off)</source>
+				<target>Setzt das Zeitlimit in Minuten (0 oder leer = kein Zeitlimit)</target>
+   			</trans-unit>
+			<trans-unit id="tx_cspowermaillimit.DBRecord">
+				<source>Select a Database-Record OR write your own Message (below this field)</source>
+				<target>Wähle einen DB-Eintrag ODER eine eigene Nachricht verfassen (unterhalb dieses Feldes)</target>
+   			</trans-unit>
+			<trans-unit id="tx_cspowermaillimit.LimitMessage">
+				<source>Message when Mail-Limit is reached</source>
+				<target>Nachricht, wenn das Mail-Limit erreicht ist</target>
+   			</trans-unit>
+			<trans-unit id="tx_cspowermaillimit.Startdate">
+				<source>Start-Date</source>
+				<target>Start-Datum</target>
+   			</trans-unit>
+			<trans-unit id="tx_cspowermaillimit.Starttime">
+				<source>Start-Time</source>
+				<target>Start-Zeit</target>
+   			</trans-unit>
+			<trans-unit id="tx_cspowermaillimit.StartMessage">
+				<source>Message before Start-Time is reached</source>
+				<target>Nachricht, bevor die Start erreicht ist</target>
+   			</trans-unit>
+			<trans-unit id="tx_cspowermaillimit.enddate">
+				<source>End-Date</source>
+				<target>End-Datum</target>
+   			</trans-unit>>
+			<trans-unit id="tx_cspowermaillimit.endtime">
+				<source>End-Time</source>
+				<target>End-Zeit</target>
+   			</trans-unit>
+			<trans-unit id="tx_cspowermaillimit.EndMessage">
+				<source>Message when Endtime is reached</source>
+				<target>Nachricht, wenn Ende erreicht ist</target>
+   			</trans-unit>
+		</body>
+	</file>
+</xliff>

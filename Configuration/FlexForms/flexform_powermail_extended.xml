@@ -15,7 +15,7 @@
 					</config>
 				</TCEforms>
 			</settings.flexform.mail.maillimit>
-			<settings.flexform.deleteTempMessages>
+			<settings.flexform.mail.deleteTempMessages>
 				<TCEforms>
 					<label>LLL:EXT:cs_powermail_limit/Resources/Private/Language/locallang_db.xml:tx_cspowermaillimit.deleteTempMessages</label>
 					<config>
@@ -26,7 +26,7 @@
 						<default>0</default>
 					</config>
 				</TCEforms>
-			</settings.flexform.deleteTempMessages>
+			</settings.flexform.mail.deleteTempMessages>
 			<settings.flexform.mail.dbrecord>
 				<TCEforms>
 					<label>LLL:EXT:cs_powermail_limit/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.DBRecord</label>
