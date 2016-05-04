@@ -17,7 +17,7 @@
 \b0 \
 \pard\pardeftab720\sa119\pardirnatural
 
-\f1\fs30 \cf0 Extension Key: cs_powermail_limit2\
+\f1\fs30 \cf0 Extension Key: cs_powermail_limit\
 Language: en\
 Keywords: powermail, limit\
 Copyright 2000-2015, Christian Strunk, <christian.m.strunk@googlemail.com>\
@@ -107,7 +107,7 @@ PLEASE NOTE: This Extension overwrites the flexform of Powermail with a modified
 
 \fs30 \cf0 It is possible (and i have no idea in which cases) that your form throws an error AFTER submitting the form. So if you have an ideas please contact me!\
 \pard\pardeftab720\sl360\slmult1\sa120\pardirnatural
-{\field{\*\fldinst{HYPERLINK "http://forge.typo3.org/projects/extension-cs_powermail_limit2"}}{\fldrslt \cf0 TYPO3 Forge link}}\
+{\field{\*\fldinst{HYPERLINK "http://forge.typo3.org/projects/extension-cs_powermail_limit"}}{\fldrslt \cf0 TYPO3 Forge link}}\
 \pard\pardeftab720\sb283\sa57\pardirnatural
 
 \fs52 \cf4 To-Do list\
@@ -117,7 +117,7 @@ PLEASE NOTE: This Extension overwrites the flexform of Powermail with a modified
 - Change and Modify Templates and Partials\
 Visions for what the extension could become with more development.\
 \pard\pardeftab720\sl360\slmult1\sa120\pardirnatural
-{\field{\*\fldinst{HYPERLINK "http://forge.typo3.org/projects/extension-cs_powermail_limit2"}}{\fldrslt \cf0 TYPO3 Forge link}}\
+{\field{\*\fldinst{HYPERLINK "http://forge.typo3.org/projects/extension-cs_powermail_limit"}}{\fldrslt \cf0 TYPO3 Forge link}}\
 \
 \pard\pardeftab720\sb283\sa57\pardirnatural
 

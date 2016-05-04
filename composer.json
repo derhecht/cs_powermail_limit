@@ -1,0 +1,36 @@
+{
+  "name": "derhecht/cs_powermail_limit",
+  "type": "typo3-cms-extension",
+  "description": "Extends Powermail with limitation functionallity.",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "powermail",
+	"limit"
+  ],
+  "homepage": "http://www.ewerk.com",
+  "authors": [
+    {
+      "name": "Jakob Berlin",
+      "role": "Developer",
+      "homepage": "http://jakob.ybals.de"
+    },
+    {
+      "name": "Christian Strunk",
+      "role": "Developer"
+    }
+  ],
+  "license": [
+    "GPL-2.0+"
+  ],
+  "require": {
+    "typo3/cms-core": ">=6.2.0,<8.0",
+	"typo3-ter/powermail": ">=2.25.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "KayStrobach\\Piwik\\": "Classes"
+    },
+    "classmap": ["Classes/Limit.php"]
+  }
+}

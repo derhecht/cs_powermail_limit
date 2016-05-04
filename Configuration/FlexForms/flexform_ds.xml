@@ -259,14 +259,14 @@
 		<limit>
 			<ROOT>
 				<TCEforms>
-					<sheetTitle>LLL:EXT:cs_powermail_limit2/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.PowermailTabMaillimitTitle</sheetTitle>
+					<sheetTitle>LLL:EXT:cs_powermail_limit/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.PowermailTabMaillimitTitle</sheetTitle>
 				</TCEforms>
 				<type>array</type>
 				<el>
 					
 			<settings.flexform.mail.maillimit>
 				<TCEforms>
-					<label>LLL:EXT:cs_powermail_limit2/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.Maillimit</label>
+					<label>LLL:EXT:cs_powermail_limit/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.Maillimit</label>
 					<config>
 						<type>input</type>
 						<size>10</size>
@@ -275,7 +275,7 @@
 			</settings.flexform.mail.maillimit>
 			<settings.flexform.deleteTempMessages>
 				<TCEforms>
-					<label>LLL:EXT:cs_powermail_limit2/Resources/Private/Language/locallang_db.xml:tx_cspowermaillimit.deleteTempMessages</label>
+					<label>LLL:EXT:cs_powermail_limit/Resources/Private/Language/locallang_db.xml:tx_cspowermaillimit.deleteTempMessages</label>
 					<config>
 						<type>input</type>
 						<size>10</size>
@@ -287,7 +287,7 @@
 			</settings.flexform.deleteTempMessages>
 			<settings.flexform.mail.dbrecord>
 				<TCEforms>
-					<label>LLL:EXT:cs_powermail_limit2/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.DBRecord</label>
+					<label>LLL:EXT:cs_powermail_limit/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.DBRecord</label>
 					<config>
 						<type>group</type>
 						<internal_type>db</internal_type>
@@ -306,7 +306,7 @@
 			</settings.flexform.mail.dbrecord>
 			<settings.flexform.mail.message>
 				<TCEforms>
-					<label>LLL:EXT:cs_powermail_limit2/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.LimitMessage</label>
+					<label>LLL:EXT:cs_powermail_limit/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.LimitMessage</label>
 					<config>
 						<type>text</type>	
 					</config>
@@ -315,7 +315,7 @@
 			</settings.flexform.mail.message>
 			<settings.flexform.start.startdate>
 				<TCEforms>
-					<label>LLL:EXT:cs_powermail_limit2/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.Startdate</label>
+					<label>LLL:EXT:cs_powermail_limit/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.Startdate</label>
 					<config>
 						<type>input</type>
 						<size>10</size>
@@ -326,7 +326,7 @@
 			</settings.flexform.start.startdate>
 			<settings.flexform.start.starttime>
 				<TCEforms>
-					<label>LLL:EXT:cs_powermail_limit2/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.Starttime</label>
+					<label>LLL:EXT:cs_powermail_limit/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.Starttime</label>
 					<config>
 						<type>input</type>
 						<size>10</size>
@@ -337,7 +337,7 @@
 			</settings.flexform.start.starttime>
 			<settings.flexform.start.dbrecord>
 				<TCEforms>
-					<label>LLL:EXT:cs_powermail_limit2/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.DBRecord</label>
+					<label>LLL:EXT:cs_powermail_limit/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.DBRecord</label>
 					<config>
 						<type>group</type>
 						<internal_type>db</internal_type>
@@ -356,7 +356,7 @@
 			</settings.flexform.start.dbrecord>
 			<settings.flexform.start.message>
 				<TCEforms>
-					<label>LLL:EXT:cs_powermail_limit2/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.StartMessage</label>
+					<label>LLL:EXT:cs_powermail_limit/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.StartMessage</label>
 					<config>
 						<type>text</type>	
 					</config>
@@ -365,7 +365,7 @@
 			</settings.flexform.start.message>
 			<settings.flexform.end.enddate>
 				<TCEforms>
-					<label>LLL:EXT:cs_powermail_limit2/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.enddate</label>
+					<label>LLL:EXT:cs_powermail_limit/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.enddate</label>
 					<config>
 						<type>input</type>
 						<size>10</size>
@@ -376,7 +376,7 @@
 			</settings.flexform.end.enddate>
 			<settings.flexform.end.endtime>
 				<TCEforms>
-					<label>LLL:EXT:cs_powermail_limit2/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.endtime</label>
+					<label>LLL:EXT:cs_powermail_limit/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.endtime</label>
 					<config>
 						<type>input</type>
 						<size>10</size>
@@ -387,7 +387,7 @@
 			</settings.flexform.end.endtime>
 			<settings.flexform.end.dbrecord>
 				<TCEforms>
-					<label>LLL:EXT:cs_powermail_limit2/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.DBRecord</label>
+					<label>LLL:EXT:cs_powermail_limit/Resources/Private/Language/locallang_db.xlf:tx_cspowermaillimit.DBRecord</label>
 					<config>
 						<type>group</type>
 						<internal_type>db</internal_type>
@@ -406,7 +406,7 @@
 			</settings.flexform.end.dbrecord>
 			<settings.flexform.end.message>
 				<TCEforms>
-					<label>LLL:EXT:cs_powermail_limit2/Resources/Private/Language/locallang_db.xml:tx_cspowermaillimit.EndMessage</label>
+					<label>LLL:EXT:cs_powermail_limit/Resources/Private/Language/locallang_db.xml:tx_cspowermaillimit.EndMessage</label>
 					<config>
 						<type>text</type>	
 					</config>

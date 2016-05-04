@@ -18,7 +18,7 @@ if (!defined('TYPO3_MODE')) {
 
 if (\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('powermail')) {
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue('powermail_pi1',
-        'FILE:EXT:cs_powermail_limit2/Configuration/FlexForms/flexform_ds.xml');
+        'FILE:EXT:cs_powermail_limit/Configuration/FlexForms/flexform_ds.xml');
 }
 
 ?>
