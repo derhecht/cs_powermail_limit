@@ -18,4 +18,7 @@ if (!defined('TYPO3_MODE')) {
 $signalSlotDispatcher = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\CMS\Extbase\SignalSlot\Dispatcher');
 $signalSlotDispatcher->connect('Tx_Powermail_Controller_FormsController', 'formActionBeforeRenderView',
     'Tx_CsPowermailLimit2_Limit', 'checkLimit', false);
+
+$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_befunc.php']['getFlexFormDSClass'][]
+    = \EWERK\CsPowermailLimit\Hooks\FlexFormHook::class;
 ?>
